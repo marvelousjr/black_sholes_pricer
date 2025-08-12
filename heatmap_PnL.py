@@ -64,7 +64,6 @@ if __name__ == "__main__":
 
     print("Call Price ", call_p)
     print("Put Price: ", put_p)
-    print(100)
 
 
     generate_pnl_heatmaps(S_min, S_max, sigma_min, sigma_max, K, r, T, purchase_price_call, purchase_price_put)
